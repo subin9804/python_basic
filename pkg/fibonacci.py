@@ -11,7 +11,7 @@ class Fibonacci:
             
 
 
-    def fib2(n):
+    def fib2(n) :
         result = []
         a, b = 0, 1
         while a < n:

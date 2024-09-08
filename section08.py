@@ -23,7 +23,7 @@ print("ex2: ", Fibonacci.fib2(600))
 print("ex2 : ", Fibonacci().title)
 
 # 사용3(클래스)
-from pkg.fibonacci import Fibonacci as fib
+from pkg.fibonacci import Fibonacci as fb
 
 fb.fib(500)
 

@@ -7,5 +7,6 @@ def prt2():
 
 # 단위 실행(독립적으로 파일 실행) - 단위 테스트 용도
 if __name__ == "__main__":
+    print(__name__)
     pr1()
     prt2()
