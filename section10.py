@@ -98,11 +98,11 @@ finally:    # 예외 발생 유무에 관계없이 실행
 
 # 예제 4
 # 예외 처리는 하지 않지만, 무조건 수행되는 코딩 패턴
-
 try:
     print('try')
 finally:
     print('Ok finally!!!')
+
 
 # 예외5
 try:
