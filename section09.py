@@ -19,7 +19,7 @@ print("----------------------------------")
 # 예제2
 # close 해주지 않아도 with문이 자동으로 리소스 반환
 with open('./resource/review.txt', 'r' ) as f:
-    c = f.read()
+    c = f.read() 
     print(c)
     print(list(c))
     print(iter(c))
@@ -31,7 +31,7 @@ print("----------------------------------")
 # 예제3
 with open('./resource/review.txt', 'r') as f:
     for c in f:
-        print(c.strip())    # sript(): 양쪽 공백(줄바꿈) 제거
+        print(c.strip())    # strip(): 양쪽 공백(줄바꿈) 제거
 
 print("----------------------------------")
 print("----------------------------------")

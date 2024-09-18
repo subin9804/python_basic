@@ -80,7 +80,7 @@ def example_mul(arg1, arg2, *args, **kwargs):
 example_mul(10, 20)
 example_mul(10, 20, 'park', 'kim', 'Lee', age=1, age2=33, age3=55)
 
-
+ 
 # 중첩함수(클로저)
 # 변수 선언 최소화
 # 메모리 관리 효율
